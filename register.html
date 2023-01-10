@@ -1,0 +1,116 @@
+<!Doctype Html>
+<html>
+   <head>
+      <title>Account page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="My Web">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Bridget jimt">
+
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<base href="https//login.html" target="_blank">
+<LINK href="0-register.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="register.html"target="_blank">Register </a></li>
+
+<li><a href="register-p.html"target="_blank">Party</a></li>
+<li><a href="candidiate.html"target="_blank">Candidate</a></li>
+<li><a href="vote-votes.html
+"> Vote</a>
+</li>
+    	<li><a href="view-votes.html" target="_blank"
+"> View votes </a>
+</li>
+ <li><a href="logout.html"target="_blank">Logout</a></li>
+ </ul>
+ </nav>
+ 	
+
+ <p><strong>please register here </strong></p>
+
+<form action="/action_page.php"
+onsubmit="return validate()" method="post"target="_blank"  autocomplete="on">
+  <fieldset>
+    <legend>Personalia</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" required="First name" placeholder="Your first name here" autofocus>
+ <br>
+  <label for="mname">Middle name:</label>
+  <input type="text" id="mname" name="mname" value=""><br/>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="your surname" required="Last name"><br/>
+  
+<label for="email">Email: </label>
+<input type="email" id ="email" name="email"size="30" required>
+<br>
+<label for ="birthday"> Birthday:</label>
+<input type="date" id ="birthday" name="birthday" required="Birthday">
+<script>
+var myAge1 = 18;
+if (myAge1 < 18) {
+   alert(" You are not qualify to register ".);
+   
+   }
+   else if{
+   (myAge1 >= 18)
+   alert("Proceed with your registeration");
+   
+   }
+   
+   	else
+   	alert("")
+   	}
+   
+</script>
+<br/>
+
+  <label for ="phone">Phone number: </label>
+<input type="tel" id="phone" name="phone" pattern ="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+<br/>
+ 
+  <label for="mstatus">Maritial Status:</label>
+  <select id="Maritial status" name="Maritial status">
+  <option value="single""checked">Single</option>
+  <option value="married">Married</option>
+
+
+  <option value="divorced">Divorced</option>
+  <option value="separated">Separated</option>
+  </select>
+<br/>
+  <input type="radio" id="male" name="gender" value="male" required="Male">
+  <label for="male">Male<input type="radio" id="female" name="gender" value="female" required="Female">
+  <label for="female">Female</label></label>
+  <br/>
+ 
+<label for="myfile">Upload a passport:</label>
+<input type="file" id ="myfile" name="myfile" ="Upload a passport" width="25px" height="25px"><br/><br/>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</fieldset>
+</form> 
+  <br />
+
+
+
+
+
+
+     
+<footer>
+	
+        <div class="copyright">
+            &copy; 2020 My Blog. All rights reserved.
+        </div>
+  
+</footer>
+ 
+
+</body>
+</html>

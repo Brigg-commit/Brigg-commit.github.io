@@ -1,0 +1,43 @@
+body{background-color:gray;
+color:#000000;
+font-size:200%;
+font-family:Arial, Helvetica, sans-serif;
+word-spacing: 20%;
+  
+}
+
+
+nav ul li a {
+	
+   padding: 18px; 
+   color: #000;
+   font-size: 18px;
+   font-family: Arial;
+   text-decoration: none;
+   display: block;
+   background: Azure;
+   }
+   
+
+ul{list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(80,0%,50%);
+}
+
+li {
+  float:left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:blue;
+  color:purple;
+  }
