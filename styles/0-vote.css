@@ -39,7 +39,8 @@ li a:hover {
   	padding:3px;
   }
   
-  img { position:relative;
+  img {
+	  position:relative;
 	  word-wrap:break-word;
 	  overflow:scroll;
 	  background-size:100%, 100%;
@@ -64,4 +65,3 @@ a:link{
 	text-decoration:none
 
 }
-
