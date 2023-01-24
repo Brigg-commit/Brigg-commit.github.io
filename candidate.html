@@ -1,0 +1,125 @@
+<!Doctype Html>
+<html>
+   <head>
+      <title>Candidate page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="My Web">
+  <meta name="keywords" content="HTML,CSS,Php,JavaScript">
+  <meta name="author" content="Bridget jimt">
+
+<meta name="viewport" content="width=device-width, initial-scale="1.0">
+<base href="https://Brigg-commit.github.io/index.html" target="_blank">
+
+<link rel="stylesheet"
+   href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md bg-#c3c3c3">
+
+<ul class="navbar-nav">
+<li>
+<a class="nav-link" href="https://Brigg-commit.github.io/register.html"target="_self"> Register</a>
+</li>
+
+<li>
+<a class="nav-link" href="https://Brigg-commit.github.io/register-p.html"target="_blank">Party</a>
+</li>
+
+<li>
+<a class="nav-link" href="https://vote.html
+">Vote</a>
+</li>
+    	<li><a class="nav-link" href="https://Brigg-commit.github.io/view-votes.html" target="_blank"
+"> View votes </a>
+</li>
+
+ <li>
+ <a class="nav-link" href="https://Brigg-commit.github.io/index.html" target="_blank">Logout</a>
+ </li>
+ </ul>
+ </nav>
+ 
+ <div class="card m-2"></div>
+	  <div class="card-header"><h4>Candidate Register</h4></div>
+ 
+	  
+<div class="card-footer">
+
+<form action="/action_page.php" target="_blank" onsubmit="return validate()" method="post" autocomplete="on">
+  <fieldset>
+    <legend>Personalia</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" required="First name" placeholder="Your first name here" autofocus>
+ <br/>
+  <label for="mname">Middle name:</label>
+  <input type="text" id="mname" name="mname" value=""><br/>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="your surname" required="Last name"><br/>
+  
+<label for="email">Email: </label>
+<input type="email" id ="email" name="email"size="25" ><br/>
+
+<label for ="birthday"> Birthday:</label>
+<input type="date" id ="birthday" name="birthday" required="Birthday">
+<br/>
+
+  <label for ="phone">Phone number: </label>
+<input type="tel" id="phone" name="phone" pattern ="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+<br/>
+
+  <label for="mstatus">Maritial Status:</label>
+  <select id="Maritial status" name="Maritial status">
+  <option value="single""checked">Single</option>
+  <option value="married">Married</option>
+
+  <option value="divorced">Divorced</option>
+  <option value="separated">Separated</option
+  </select>
+<br/>
+
+
+<br/>
+  <input type="radio" name="male" value="3" />Male
+  <input type="radio" name="female" value="3" />Female
+  <input type="radio" name="Other" value="3" />Other<br />
+
+  <label for="party">Party name: </label>
+  <input list="parties" name="party name"  required="Party name" placeholder=" political party name" autofocus>
+  <datalist id="parties">
+    <option value=" PDP">
+    <option value="ACN">
+    <option value="APC">
+    <option value="APGA">
+    <option value="UDP">
+  </datalist><br/>
+ 
+<label for="myfile">Upload party logo:</label>
+<input type="file" id ="myfile" name="myfile" ="Upload a party logo" width="25em" height="25em">
+<br/>
+
+ <label for="myfile">Upload passport:</label>
+<input type="file" id ="myfile" name="myfile" ="Upload a passport" width="25px" height="25px"><br/>
+  
+  <input type="submit" value="Submit"/>
+  <input type="reset" value="Reset"/>
+  <input type="hidden" name="action" value="registration" />
+</fieldset>
+</form> 
+
+
+
+
+
+     
+<footer>
+	
+        <div class="copyright">
+            &copy; 2020 My Blog. All rights reserved.
+        </div>
+  
+</footer>
+ 
+
+</body>
+</html>
