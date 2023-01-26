@@ -7,7 +7,7 @@ body{
 	background-color:CadetBlue;
 }
 
-ul {
+ul li{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,6 +27,7 @@ li a {
 li a:hover {
   background-color:#111111;
   }
+
   a:hover {color:purple;
   
   }

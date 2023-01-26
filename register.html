@@ -56,7 +56,7 @@
 		  <div class="card-body">Please register here</div>
 			  <div class="card-footer">
 
-<form action="/action_page.php"
+<form action="/bin/account"
 onsubmit="return validate()" method="post"target="_blank"  autocomplete="on">
   <fieldset>
     <legend>Personalia</legend>
@@ -124,8 +124,11 @@ if (myAge1 < 18) {
   <br/>
  
 <label for="myfile">Upload a passport:</label>
-<input type="file" id ="myfile" name="myfile" ="Upload a passport" width="25px" height="25px"><br/><br/>
+<input type="file" id ="myfile" name="myfile" ="Upload a passport" width="25px" height="25px"><br/>
+<br/>
   
+<input type="hidden" name="action" value="account" />
+
   <input type="submit" value="Submit">
   <input type="reset" value="Reset">
 </fieldset>
