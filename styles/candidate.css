@@ -2,12 +2,11 @@
   box-sizing:border-box;
 }
 body{
-	overflow:scroll;
-	word-wrap:break-word;
-	background-color:CadetBlue;
+    overflow: scroll;
+    word-wrap: break-word; 
 }
 
-ul li{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,7 +27,8 @@ li a:hover {
   background-color:#111111;
   }
 
-  a:hover {color:purple;
+  a:hover {
+	  color:purple;
   
   }
   ul li a{
@@ -45,10 +45,9 @@ li a:hover {
 	  word-wrap:break-word;
 	  overflow:scroll;
 	  background-size:100%, 100%;
-  }
+   }
 
 /* Style the navigation menu */
-
 nav {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -61,8 +60,10 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-}
-a:link{
-	text-decoration:none
 
 }
+a:link{
+	text-decoration:none;
+
+}
+
